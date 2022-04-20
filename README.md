@@ -28,7 +28,6 @@ classDiagram
         +buttonBill_Click()
         +buttonClear_Click()
         +button1savedata_Click()
-        +
     }
     class Bill{
         +showbill()
