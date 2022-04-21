@@ -22,10 +22,5 @@ namespace FinalProject643450647_2
             MainPage form = new MainPage();
             form.ShowDialog();
         }
-
-        private void button2_Click(object sender, EventArgs e)
-        {
-            this.Close();
-        }
     }
 }

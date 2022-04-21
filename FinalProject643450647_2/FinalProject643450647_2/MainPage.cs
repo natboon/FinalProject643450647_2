@@ -14,7 +14,6 @@ namespace FinalProject643450647_2
     public partial class MainPage : Form
     {
         private string nameRoom = "";
-        public DateTime Today { get; private set; }
         public MainPage()
         {
             InitializeComponent();
@@ -161,14 +160,14 @@ namespace FinalProject643450647_2
         {
             string Booker = textBoxBooker.Text;
             string Days = textBoxQudays.Text;
-            string Qudays = textBoxQuall.Text;
+            string Quroom = textBoxQuall.Text;
             string Sumroom = textBoxSumroom.Text;
 
             int n = dataGridView1.Rows.Add();
 
             dataGridView1.Rows[n].Cells[0].Value = Booker;
             dataGridView1.Rows[n].Cells[1].Value = nameRoom;
-            dataGridView1.Rows[n].Cells[2].Value = Qudays;
+            dataGridView1.Rows[n].Cells[2].Value = Quroom;
             dataGridView1.Rows[n].Cells[3].Value = Days;
             dataGridView1.Rows[n].Cells[4].Value = Sumroom;
             nameRoom = "";
