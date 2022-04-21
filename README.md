@@ -25,7 +25,6 @@ classDiagram
     Program : +Main()
     class HomePage{
         +Teddyhotel_Click()
-        +buttonExit_Click()
     }
     class MainPage{
         +openToolStripMenuItem_Click()
